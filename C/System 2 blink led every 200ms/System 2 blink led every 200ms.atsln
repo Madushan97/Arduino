@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "System 2 blink led every 200ms", "System 2 blink led every 200ms\System 2 blink led every 200ms.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "system 2 in bit-wises hift", "system 2 in bit-wises hift\system 2 in bit-wises hift.cproj", "{B10B149B-65FA-4EC2-B6D3-91370E26E34C}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "System2 in label constatnt", "System2 in label constatnt\System2 in label constatnt.cproj", "{F538AAB3-9D14-419E-B43B-37878C022820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{B10B149B-65FA-4EC2-B6D3-91370E26E34C}.Debug|AVR.ActiveCfg = Debug|AVR
+		{B10B149B-65FA-4EC2-B6D3-91370E26E34C}.Debug|AVR.Build.0 = Debug|AVR
+		{B10B149B-65FA-4EC2-B6D3-91370E26E34C}.Release|AVR.ActiveCfg = Release|AVR
+		{B10B149B-65FA-4EC2-B6D3-91370E26E34C}.Release|AVR.Build.0 = Release|AVR
+		{F538AAB3-9D14-419E-B43B-37878C022820}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F538AAB3-9D14-419E-B43B-37878C022820}.Debug|AVR.Build.0 = Debug|AVR
+		{F538AAB3-9D14-419E-B43B-37878C022820}.Release|AVR.ActiveCfg = Release|AVR
+		{F538AAB3-9D14-419E-B43B-37878C022820}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
