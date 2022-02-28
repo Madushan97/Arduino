@@ -1,0 +1,35 @@
+;
+; Assignment 2.asm
+;
+; Created: 2/27/2022 12:19:35 AM
+; Author : Madushan
+;
+
+
+; Replace with your application code
+
+SBI DDRB, 0		// SET PB0 AS OUTPUT
+CBI DDRD, 2		// SET PD2 AS INPUT
+SBI PORTD, 2		// PULLUP PD2
+
+PRESSED : SBIC PINB, PINB2		// IF PINB2 IS LOW
+		  SBI PORTB, 0
+		  CALL DELAY			// 400MS
+		  CALL DELAY
+		  CBI PORTB, 0
+		  CALL DELAY			// 400MS
+		  CALL DELAY
+		  
+
+
+
+DELAY : LDI R16, 16
+LOOP1 : LDI R17, 255
+LOOP2 : LDI R18, 255
+LOOP3 :	DEC R18
+		BRNE LOOP3
+		DEC R17
+		BRNE LOOP2
+		DEC R16
+		BRNE LOOP1
+		RET

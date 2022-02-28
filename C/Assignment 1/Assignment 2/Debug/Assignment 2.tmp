@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Madushan\OneDrive\Desktop\Embedded\C\Assignment 1\Assignment 2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Madushan\OneDrive\Desktop\Embedded\C\Assignment 1\Assignment 2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Madushan\OneDrive\Desktop\Embedded\C\Assignment 1\Assignment 2\Debug\Assignment 2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Assignment 2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Assignment 2.map</FILE>
+  <FILE>Assignment 2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <PRESSED><FILE>C:\Users\Madushan\OneDrive\Desktop\Embedded\C\Assignment 1\Assignment 2\main.asm</FILE><LINE>15</LINE></PRESSED>
+  <DELAY><FILE>C:\Users\Madushan\OneDrive\Desktop\Embedded\C\Assignment 1\Assignment 2\main.asm</FILE><LINE>26</LINE></DELAY>
+  <LOOP1><FILE>C:\Users\Madushan\OneDrive\Desktop\Embedded\C\Assignment 1\Assignment 2\main.asm</FILE><LINE>27</LINE></LOOP1>
+  <LOOP2><FILE>C:\Users\Madushan\OneDrive\Desktop\Embedded\C\Assignment 1\Assignment 2\main.asm</FILE><LINE>28</LINE></LOOP2>
+  <LOOP3><FILE>C:\Users\Madushan\OneDrive\Desktop\Embedded\C\Assignment 1\Assignment 2\main.asm</FILE><LINE>29</LINE></LOOP3>
+ </LABELS>
+</ASSEMBLER_INFO>
