@@ -11,10 +11,8 @@
 int main(void)
 {
     DDRB = DDRB | 0b00100000;		// config PB5 as output
-	DDRD = DDRD & 0b11101111;		// config PD4 as input
-	
-	PORTD = PORTD | 0b00010000;		// pull-up PD4
-	
+	DDRD = DDRD & 0b11101111;		// config PD4 as input	
+	PORTD = PORTD | 0b00010000;		// pull-up PD4	
 	TCCR0B = TCCR0B | 0b00000110;	// clock source as external
 	TCNT0 = 251;
 	
